@@ -7,13 +7,22 @@
     font-family: 'Baloo Bhaijaan 2', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+
 }
 
 :root {
     --toptextColor: #2B2B2B;
     --contactTextSize: 14px;
     --contactIconsSize: 20px;
+    --searchPartColor: #F4F4F4;
+    --searchPadding: 26px;
+    --lineColor: #D7D7D7;
+    --color: #74B6C7;
+    --colorWhite: #FFFFFF;
+    --fontWeightSize: 500;
+    --fontWeightSize2: 400;
 
 }
 
@@ -21,14 +30,15 @@
 .gmail-text {
     color: var(--topTextColor);
     font-size: var(--contactTextSize);
+    font-weight: var(--fontWeightSize);
 
 }
 
 .vertical-line {
     width: 21px;
     height: 0px;
-
-    border: 1px solid #D7D7D7;
+    background-color: var(--lineColor);
+    border: 1px solid var(--lineColor);
     transform: rotate(90deg);
 }
 
@@ -36,6 +46,7 @@
     margin-bottom: 0px;
     color: var(--topTextColor);
     font-size: var(--contactTextSize);
+    font-weight: var(--fontWeightSize);
 }
 
 .contact-part {
@@ -57,4 +68,72 @@
 
 hr {
     margin: 20px;
+}
+
+/* logo and search part  */
+.vap-logo {
+    width: 90px;
+    height: 61px;
+}
+
+.search-part {
+    background: var(--searchPartColor);
+    width: 674px;
+
+    height: 50px;
+
+
+}
+
+.search-part input {
+    background: var(--searchPartColor);
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    padding-left: var(--searchPadding);
+    font-weight: var(--fontWeightSize);
+
+}
+
+.category-text {
+    background: var(--searchPartColor);
+    padding-right: var(--searchPadding);
+}
+
+.category-text p {
+    background: var(--searchPartColor);
+    font-weight: var(--fontWeightSize2);
+
+}
+
+.category-text i {
+    background: var(--searchPartColor);
+}
+
+.vertical-line-2 {
+    width: 21px;
+    height: 0px;
+    margin-right: 19px;
+    background-color: var(--lineColor);
+    border: 1px solid var(--lineColor);
+    transform: rotate(90deg);
+}
+
+.search-icon {
+    width: 70px;
+    height: 50px;
+    display: inline;
+    background-color: var(--color);
+
+}
+
+.search-icon .fa-magnifying-glass {
+    font-size: var(--contactIconsSize);
+    background-color: var(--color);
+    color: var(--colorWhite);
+}
+
+.icons {
+    font-size: var(--contactIconsSize);
+
 }
