@@ -7,8 +7,9 @@
     font-family: 'Baloo Bhaijaan 2', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-color: #FFFFFF;
     box-sizing: border-box;
+
+
 
 }
 
@@ -23,6 +24,7 @@
     --colorWhite: #FFFFFF;
     --fontWeightSize: 500;
     --fontWeightSize2: 400;
+    --fontWeightSize3: 600;
 
 }
 
@@ -136,4 +138,36 @@ hr {
 .icons {
     font-size: var(--contactIconsSize);
 
+}
+
+/* navbar  */
+.navbar-part {
+    background-color: var(--color);
+    padding: 20px;
+    width: 254px;
+    height: 60px;
+}
+
+.navbar-part p {
+    font-size: 14px;
+    font-weight: var(--fontWeightSize3);
+    color: var(--colorWhite);
+}
+
+.fa-bars {
+    font-size: var(--contactIconsSize);
+    color: var(--colorWhite);
+}
+
+.navbar-part .fa-caret-down {
+    font-size: 10px;
+    color: var(--colorWhite);
+}
+
+
+
+.navbar-text-part>li>a {
+    font-size: 14px;
+    color: var(--colorWhite);
+    font-weight: var(--fontWeightSize3);
 }
