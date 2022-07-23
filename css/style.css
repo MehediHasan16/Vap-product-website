@@ -1,0 +1,60 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@500;700&display=swap');
+
+
+
+* {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+}
+
+:root {
+    --toptextColor: #2B2B2B;
+    --contactTextSize: 14px;
+    --contactIconsSize: 20px;
+
+}
+
+/* top contact part  */
+.gmail-text {
+    color: var(--topTextColor);
+    font-size: var(--contactTextSize);
+
+}
+
+.vertical-line {
+    width: 21px;
+    height: 0px;
+
+    border: 1px solid #D7D7D7;
+    transform: rotate(90deg);
+}
+
+.phone-text {
+    margin-bottom: 0px;
+    color: var(--topTextColor);
+    font-size: var(--contactTextSize);
+}
+
+.contact-part {
+    height: 44px;
+}
+
+.fa-envelope {
+    font-size: var(--contactIconsSize);
+}
+
+.fa-phone {
+    font-size: var(--contactIconsSize);
+}
+
+.fa-brands {
+    font-size: var(--contactIconsSize);
+    margin-right: 20px;
+}
+
+hr {
+    margin: 20px;
+}
