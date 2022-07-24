@@ -11,6 +11,8 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
 
 
@@ -225,8 +227,49 @@ hr {
 
 .banner-text button {
     color: var(--colorWhite);
+    font-weight: 700;
     padding: 9px 49px;
     font-size: 16px;
     background-color: #feffff00;
     border: 1.5px solid #FFFFFF;
+}
+
+/* shopping method  */
+.shopping-method {
+
+    height: 121px;
+    background: #F5F5F5;
+}
+
+.shopping-method .fa-solid {
+    font-size: 30px;
+
+
+}
+
+
+.shopping-method img {
+    width: 30.94px;
+    height: 34px;
+
+
+
+}
+
+.shopping-service-text {
+    margin-left: 15px;
+}
+
+.shopping-method p {
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #414141;
+}
+
+.shopping-method small {
+    font-weight: 400;
+
+    font-size: 14px;
+    color: #474747;
 }
