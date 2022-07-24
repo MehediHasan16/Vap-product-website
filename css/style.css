@@ -185,9 +185,48 @@ hr {
 }
 
 .banner-text {
-    padding: 97px 0px 97px 197px;
+
+    margin-left: 138px;
+    margin-right: 601px;
+    padding: 100px 0;
+
+}
+
+.banner-text h6 {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--colorWhite);
+
+}
+
+.banner-text h2 {
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--colorWhite);
+    font-family: Audiowide;
+
+}
+
+.banner-text h1 {
+    font-weight: 400;
+    font-size: 96px;
+    color: var(--colorWhite);
+    font-family: Audiowide;
+
+}
+
+.banner-text p {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--colorWhite);
+
+
 }
 
 .banner-text button {
+    color: var(--colorWhite);
+    padding: 9px 49px;
+    font-size: 16px;
     background-color: #feffff00;
+    border: 1.5px solid #FFFFFF;
 }
