@@ -1,16 +1,12 @@
-/* font link  montserrat*/
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@500;700&display=swap');
-
-/* font link audiowide  */
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Baloo+Bhaijaan+2:wght@400;500;600&family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@500;700&display=swap');
-
+/* font link   */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Baloo+Bhaijaan+2:wght@400;500;600&family=Montserrat:wght@200;300;400;500;600;700;800&family=Poppins:wght@500;700&family=Work+Sans:wght@500&display=swap');
 
 
 * {
     font-family: 'Baloo Bhaijaan 2', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 
@@ -31,6 +27,7 @@
     --fontWeightSize: 500;
     --fontWeightSize2: 400;
     --fontWeightSize3: 600;
+    --background_Color: #313A47;
 
 }
 
@@ -328,4 +325,103 @@ hr {
     height: 164px;
     margin: 0 30px;
 
+}
+
+/* <!-- Deals of the day part --> */
+.deals-part-container {
+    height: 883px;
+    background-color: var(--background_Color);
+}
+
+.deals-header-text {
+    font-family: 'Work Sans';
+
+    color: var(--colorWhite);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.fa-angle-left {
+
+    background: #F1F1F1;
+    color: #B0B0B0;
+
+    padding: 10px 12px;
+    margin-right: 5px;
+}
+
+.fa-angle-right {
+
+    background: var(--color);
+    color: var(--colorWhite);
+    padding: 10px 12px;
+    margin-right: 5px;
+}
+
+.deals-part-image img {
+    width: 608px;
+    height: 651px;
+}
+
+.deals-part-detales img {
+    width: 492px;
+    height: 650px;
+    margin-top: 41px;
+}
+
+.dealts-text {
+    position: absolute;
+
+    left: 9px;
+    top: 53px;
+
+    padding: 41px;
+}
+
+.dealts-text h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #2B2B2B;
+}
+
+.fa-star {
+    font-size: 11px;
+    color: var(--color);
+}
+
+
+.deals-recent-price {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--color);
+}
+
+.deals-previous-price {
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--lineColor);
+}
+
+.deals-blog-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2B2B2B;
+}
+
+.time {
+
+    width: 90px;
+    height: 90px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.deals-btn {
+    color: var(--colorWhite);
+    font-weight: 700;
+    padding: 9px 40px;
+    font-size: 16px;
+    background-color: #313A47;
+    border: 1.5px solid #FFFFFF;
 }
