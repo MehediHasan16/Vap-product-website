@@ -10,7 +10,7 @@
     font-family: 'Baloo Bhaijaan 2', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 
@@ -27,6 +27,7 @@
     --lineColor: #D7D7D7;
     --color: #74B6C7;
     --colorWhite: #FFFFFF;
+    --bold_text_color: #2B2B2B;
     --fontWeightSize: 500;
     --fontWeightSize2: 400;
     --fontWeightSize3: 600;
@@ -272,4 +273,59 @@ hr {
 
     font-size: 14px;
     color: #474747;
+}
+
+/* from the best brands  */
+.vape-brands-container {
+    width: 1058px;
+    height: 250px;
+    border: 0.5px solid #999999;
+}
+
+.brand-header-text h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--bold_text_color);
+    margin-top: 63px;
+    margin-bottom: 35px;
+}
+
+.brand-1 {
+    width: 350px;
+    padding: 50px 0;
+}
+
+.brand-2 {
+    width: 360px;
+    padding: 36px 0;
+    border-left: 1px solid #D9D9D9;
+    border-right: 1px solid #D9D9D9;
+
+}
+
+.brand-3 {
+    width: 348px;
+    padding: 43px 0;
+}
+
+.brand-1 img {
+    width: 261px;
+    height: 149px;
+
+    margin: 0 46px;
+
+}
+
+.brand-2 img {
+    width: 311px;
+    height: 179px;
+    margin: 0 24px;
+
+}
+
+.brand-3 img {
+    width: 284px;
+    height: 164px;
+    margin: 0 30px;
+
 }
