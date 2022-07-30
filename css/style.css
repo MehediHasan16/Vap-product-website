@@ -623,3 +623,71 @@ hr {
 
 
 }
+
+/* vape detail part  */
+.vape-detail-container {
+    background: rgba(0, 0, 0, 0.06);
+    padding: 81px 173px 135px 89px;
+    width: 720px;
+    height: 582px;
+    z-index: 1;
+
+}
+
+.vape-image {
+    height: 581px;
+    width: 721px;
+}
+
+.vape-detail-container h2 {
+    font-family: 'Audiowide';
+    margin-bottom: 26px;
+
+    font-weight: var(--fontWeightSize2);
+    font-size: 30px;
+
+
+    color: #313A47;
+}
+
+.vape-detail-container p {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    color: #313A47;
+    margin-bottom: 26px;
+
+}
+
+.vape-detail-btn {
+    border: none;
+    font-size: 17px;
+    color: var(--colorWhite);
+    font-weight: 700;
+    padding: 14px 64px;
+
+    background-color: #313A47;
+
+}
+
+.vape-logo {
+    position: absolute;
+    top: 76px;
+    left: 312px;
+    z-index: -1;
+
+
+}
+
+.vape-detail-container-2 {
+    background: rgba(0, 0, 0, 0.06);
+    padding: 151px 70px 151px 191px;
+    width: 819px;
+    height: 581px;
+    z-index: 1;
+}
+
+.vape-image-2 {
+    width: 721px;
+    height: 582px;
+}
