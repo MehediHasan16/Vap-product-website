@@ -18,6 +18,7 @@
     --toptextColor: #2B2B2B;
     --contactTextSize: 14px;
     --contactIconsSize: 20px;
+    --ions_size_2: 25px;
     --searchPartColor: #F4F4F4;
     --searchPadding: 26px;
     --lineColor: #D7D7D7;
@@ -343,7 +344,7 @@ hr {
 }
 
 
-.fa-angle-left {
+.deals-left-icon {
 
     background: #F1F1F1;
     color: #B0B0B0;
@@ -352,7 +353,7 @@ hr {
     margin-right: 5px;
 }
 
-.fa-angle-right {
+.deals-right-icon {
 
     background: var(--color);
     color: var(--colorWhite);
@@ -499,7 +500,7 @@ hr {
     margin-right: 10px;
     position: absolute;
     top: 0px;
-    left: 175px;
+    left: 218px;
 }
 
 .product-btn {
@@ -564,5 +565,61 @@ hr {
     padding: 12px 60px;
 
     background-color: #313A47;
+
+}
+
+/* related-product */
+.related-product-header-text h2 {
+    margin-top: 46px;
+    margin-bottom: 22px;
+    font-weight: var(--fontWeightSize4);
+    font-size: 36px;
+    color: var(--toptextColor);
+}
+
+.related-product-header-text p {
+
+    font-weight: var(--fontWeightSize);
+    font-size: 18px;
+    margin-bottom: 45px;
+
+
+
+    color: var(--toptextColor);
+}
+
+.product-left-siler-icon {
+    font-size: var(--ions_size_2);
+    color: var(--color);
+    position: absolute;
+    top: 310px;
+    left: 108px;
+}
+
+.product-right-siler-icon {
+    font-size: var(--ions_size_2);
+    color: var(--color);
+    position: absolute;
+    top: 310px;
+    left: 1558px;
+}
+
+.circle-fa-icons {
+    margin-bottom: 59px;
+}
+
+.circle-color-icon {
+
+
+    font-size: 18px;
+    color: var(--color);
+
+}
+
+.circle-icon {
+    font-size: 11px;
+    color: #444444;
+    margin-left: 11px;
+
 
 }
