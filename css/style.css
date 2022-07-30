@@ -687,6 +687,25 @@ hr {
     z-index: 1;
 }
 
+.vape-detail-container-2 h2 {
+    font-family: 'Audiowide';
+    margin-bottom: 26px;
+
+    font-weight: var(--fontWeightSize2);
+    font-size: 30px;
+
+
+    color: #313A47;
+}
+
+.vape-detail-container-2 p {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    color: #313A47;
+    margin-bottom: 26px;
+}
+
 .vape-image-2 {
     width: 721px;
     height: 582px;
