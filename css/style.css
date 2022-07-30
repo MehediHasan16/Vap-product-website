@@ -24,6 +24,7 @@
     --lineColor: #D7D7D7;
     --color: #74B6C7;
     --colorWhite: #FFFFFF;
+    --color_3: #000000;
     --bold_text_color: #2B2B2B;
     --fontWeightSize: 500;
     --fontWeightSize2: 400;
@@ -709,4 +710,73 @@ hr {
 .vape-image-2 {
     width: 721px;
     height: 582px;
+}
+
+/* discount part  */
+
+.discount-container {
+    height: 371px;
+    background: var(--color);
+    padding-bottom: 84px;
+
+}
+
+.discount-container h2 {
+    padding-top: 85px;
+    color: var(--colorWhite);
+    font-weight: var(--fontWeightSize4);
+    font-size: 36px;
+    margin-bottom: 27px;
+}
+
+.discount-container p {
+    font-weight: var(--fontWeightSize2);
+    font-size: 18px;
+    color: var(--colorWhite);
+    margin-bottom: 33px;
+}
+
+.email-text-area-2 {
+    width: 865px;
+    height: 73px;
+    padding: 10px;
+    border: 1px solid var(--colorWhite);
+
+}
+
+.email-text-area-2 input {
+    outline: none;
+    border: none;
+    background: var(--color);
+    color: var(--colorWhite);
+    width: 700px;
+}
+
+.email-text-area-2 button {
+    border: none;
+    width: 208.56px;
+    font-size: 15.9541px;
+    color: var(--colorWhite);
+    font-weight: 700;
+    padding: 19px 39px;
+
+    background-color: #313A47;
+
+}
+
+/* other-products */
+.other-products h2 {
+    margin-top: 71px;
+    margin-bottom: 5px;
+    font-weight: var(--fontWeightSize4);
+    font-size: 36px;
+    color: var(--color_3);
+
+}
+
+.other-products small {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 34px;
+    color: var(--color_3);
 }
