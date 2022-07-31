@@ -61,7 +61,7 @@
     height: 44px;
 }
 
-.fa-envelope {
+.header-icon-envelope {
     font-size: var(--contactIconsSize);
 }
 
@@ -69,7 +69,7 @@
     font-size: var(--contactIconsSize);
 }
 
-.fa-brands {
+.header-icon {
     font-size: var(--contactIconsSize);
     margin-right: 20px;
 }
@@ -779,4 +779,147 @@ hr {
     font-size: 16px;
     margin-bottom: 34px;
     color: var(--color_3);
+}
+
+.other-products-images {
+    margin-bottom: 103px;
+    padding-top: 40px;
+}
+
+/* footer-container */
+.footer-container {
+    padding-top: 65px;
+    height: 555px;
+    background: #121212;
+}
+
+.footer-description img {
+    Width: 133px;
+    Height: 89px;
+}
+
+.footer-description p {
+    font-weight: var(--fontWeightSize2);
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.footer-icon-envelope {
+    height: 18px;
+    font-size: var(--contactIconsSize);
+
+    margin-right: 13px;
+
+    color: var(--colorWhite);
+}
+
+.gmail-text-footer {
+    font-size: var(--contactTextSize);
+    font-weight: var(--fontWeightSize);
+    color: var(--colorWhite);
+}
+
+.footer-icon {
+    margin-top: 30px;
+    font-size: var(--contactIconsSize);
+    margin-right: 20px;
+    color: var(--colorWhite);
+}
+
+.footer-menu h2 {
+
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+
+
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+
+.footer-menu p {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+
+
+    color: #FFFFFF;
+}
+
+.footer-contact h2 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+
+
+    color: #FFFFFF;
+    margin-bottom: 11px;
+}
+
+.footer-contact p {
+    font-weight: 500;
+    font-size: 14px;
+
+
+
+
+    color: #FFFFFF;
+}
+
+.footer-contact input {
+    border: none;
+    outline: none;
+    font-size: 15.9541px;
+    color: var(--colorWhite);
+    font-weight: 700;
+    padding-left: 26px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 205px;
+    height: 32px;
+
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+
+.footer-contact ::placeholder {
+    font-weight: 500;
+    font-size: 12px;
+
+
+
+    color: #2E2E2E;
+}
+
+.footer-contact button {
+    border: none;
+
+    font-size: 15.9541px;
+    color: var(--colorWhite);
+    font-weight: 700;
+    color: #2E2E2E;
+    padding: 4px 22px;
+
+    background-color: #ffffff;
+}
+
+.footer-contact img {
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+
+.footer-container hr {
+    border: 2px solid #FFFFFF;
+    margin: 20px;
+}
+
+.footer-container small {
+    font-weight: 400;
+    font-size: 16px;
+
+    letter-spacing: 0.015em;
+
+    color: #DADADA;
 }
